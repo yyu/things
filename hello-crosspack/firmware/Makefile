@@ -19,7 +19,7 @@
 
 DEVICE     = atmega328p
 CLOCK      = 16000000L
-PROGRAMMER = -b 115200 -c arduino -P "/dev/cu.usbmodem14231" -C /Users/yy/.platformio/packages/tool-avrdude/avrdude.conf
+PROGRAMMER = -b 115200 -c arduino -P "/dev/cu.usbmodem14231" -C /usr/local/opt/avrdude-6.3/avrdude.conf
 OBJECTS    = main.o
 FUSES      = -U hfuse:w:0xd9:m -U lfuse:w:0x24:m
 
