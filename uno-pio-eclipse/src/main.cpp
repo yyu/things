@@ -11,11 +11,15 @@
 #endif
 
 void setup() {
+	Serial.begin(9600);
+
     // initialize LED digital pin as an output.
     pinMode(LED_BUILTIN, OUTPUT);
 }
 
 void loop() {
+	Serial.println("--------");
+
     // turn the LED on (HIGH is the voltage level)
     digitalWrite(LED_BUILTIN, HIGH);
 
