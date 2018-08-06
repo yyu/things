@@ -28,6 +28,13 @@ constexpr int SHARP10 = 14; // pin #10 == 10 == 14
 constexpr int   POT_PIN = SHARP6; // the potentiometer
 constexpr int SERVO_PIN = SHARP12;
 
+constexpr int LEFTMOST_ANGLE = 135;
+constexpr int MIDDLE_ANGLE = 85;
+constexpr int RIGHTMOST_ANGLE = 35;
+
+constexpr int SERVO_MOVE_WAIT_TIME = 1000; // in milliseconds
+constexpr int LED_BLINK_INTERVAL = 500; // in milliseconds
+
 Servo myservo;  // create servo object to control a servo
 
 template<typename A, typename B, typename C, typename D, typename E>
@@ -60,7 +67,7 @@ void blink_led() {
 
     for (int high_or_low : cycle) {
         CircuitPlayground.redLED(high_or_low);
-        delay(500);
+        delay(LED_BLINK_INTERVAL);
     }
 }
 
@@ -73,16 +80,42 @@ void check_many_pins() {
     Serial.println();
 }
 
+void wait_for_servo_to_get_there() {
+    delay(SERVO_MOVE_WAIT_TIME);
+}
+
 void turn_back_middle() {
-    myservo.write(85);
+    myservo.write(MIDDLE_ANGLE);
 }
 
 void turn_left() {
-    myservo.write(135);
+    myservo.write(LEFTMOST_ANGLE);
 }
 
 void turn_right() {
-    myservo.write(35);
+    myservo.write(RIGHTMOST_ANGLE);
+}
+
+void swipe_left() {
+    turn_left();
+    wait_for_servo_to_get_there();
+    turn_back_middle();
+    wait_for_servo_to_get_there();
+}
+
+void swipe_right() {
+    turn_right();
+    wait_for_servo_to_get_there();
+    turn_back_middle();
+    wait_for_servo_to_get_there();
+}
+
+void swipe(bool left_0_right_1) {
+    if (left_0_right_1) {
+        swipe_right();
+    } else {
+        swipe_left();
+    }
 }
 
 void loop() {
@@ -90,24 +123,11 @@ void loop() {
 
     int pot_val = analogRead(POT_PIN); // reads the value of the potentiometer (value between 0 and 1023)
     int servo_angle = map(pot_val, 0, 1023, 0, 180); // scale it to use it with the servo (value between 0 and 180)
+    bool left_false_right_true = servo_angle > 90;
 
-    SERIAL_PRINT_5_LN("pot: ", pot_val, " => ", "angle: ", servo_angle);
+    SERIAL_PRINT_5_LN("pot: ", pot_val, " => angle: ", servo_angle, left_false_right_true ? " (Right)" : " (Left)");
 
-    // myservo.write(servo_angle); // sets the servo position according to the scaled value
-
-    if (servo_angle <= 90) {
-        turn_left();
-        delay(1000);
-        turn_back_middle();
-        delay(1000);
-    } else {
-        turn_right();
-        delay(1000);
-        turn_back_middle();
-        delay(1000);
-    }
-
-    delay(200); // waits for the servo to get there
+    swipe(left_false_right_true);
 
     blink_led();
 }
