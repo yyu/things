@@ -19,6 +19,10 @@
 
 #include <Servo.h>
 
+enum COLOR {
+    RED, BLUE, NO_IDEA
+};
+
 // no idea how the pins are numbered
 constexpr int SHARP6  = 25; // pin #6  ==  7 == 25
 constexpr int SHARP12 = 29; // pin #12 == 11 == 29
@@ -28,9 +32,9 @@ constexpr int SHARP10 = 14; // pin #10 == 10 == 14
 constexpr int   POT_PIN = SHARP6; // the potentiometer
 constexpr int SERVO_PIN = SHARP12;
 
-constexpr int LEFTMOST_ANGLE = 135;
+constexpr int LEFTMOST_ANGLE = 110;
 constexpr int MIDDLE_ANGLE = 85;
-constexpr int RIGHTMOST_ANGLE = 35;
+constexpr int RIGHTMOST_ANGLE = 60;
 
 constexpr int SERVO_MOVE_WAIT_TIME = 1000; // in milliseconds
 constexpr int LED_BLINK_INTERVAL = 500; // in milliseconds
@@ -118,9 +122,38 @@ void swipe(bool left_0_right_1) {
     }
 }
 
-void loop() {
-    //check_many_pins();
+COLOR get_color() {
+    // First turn off all the pixels to make sure they don't interfere with the reading.
+    CircuitPlayground.clearPixels();
 
+    // color reading (red, green, blue will be returned in the parameters passed in)
+    uint8_t red, green, blue;
+    CircuitPlayground.senseColor(red, green, blue);
+
+    // Print out the color components.
+    Serial.print("Color: red=");
+    Serial.print(red, DEC);
+    Serial.print(" green=");
+    Serial.print(green, DEC);
+    Serial.print(" blue=");
+    Serial.println(blue, DEC);
+
+    // Finally set all the pixels to the detected color.
+    for (int i=0; i<10; ++i) {
+      CircuitPlayground.strip.setPixelColor(i, red, green, blue);
+    }
+    CircuitPlayground.strip.show();
+
+    if (red > green && red > blue) {
+        return RED;
+    } else if (blue > red && blue > green) {
+        return BLUE;
+    } else {
+        return NO_IDEA;
+    }
+}
+
+void read_pot_and_swipe() {
     int pot_val = analogRead(POT_PIN); // reads the value of the potentiometer (value between 0 and 1023)
     int servo_angle = map(pot_val, 0, 1023, 0, 180); // scale it to use it with the servo (value between 0 and 180)
     bool left_false_right_true = servo_angle > 90;
@@ -128,6 +161,29 @@ void loop() {
     SERIAL_PRINT_5_LN("pot: ", pot_val, " => angle: ", servo_angle, left_false_right_true ? " (Right)" : " (Left)");
 
     swipe(left_false_right_true);
+}
+
+void read_color_and_swipe() {
+    const COLOR color = get_color();
+
+    switch (color) {
+        case RED:
+            swipe_left();
+            break;
+        case BLUE:
+            swipe_right();
+            break;
+        default:
+            break;
+    }
+    SERIAL_PRINT_5("(RED, BLUE, NO_IDEA): (", RED, ", ", BLUE, ", ");
+    SERIAL_PRINT_5_LN(NO_IDEA, "). ", "read: ", color, ".");
+}
+
+void loop() {
+    //check_many_pins();
+
+    read_color_and_swipe();
 
     blink_led();
 }
