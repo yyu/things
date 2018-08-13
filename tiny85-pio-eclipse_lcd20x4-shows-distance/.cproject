@@ -25,6 +25,9 @@
 								<option id="org.eclipse.cdt.build.core.settings.holder.incpaths.239157887" name="Include Paths" superClass="org.eclipse.cdt.build.core.settings.holder.incpaths" valueType="includePath">
 									<listOptionValue builtIn="false" value="${HOME}/.platformio/packages/framework-arduinoavr/cores/tiny"/>
 									<listOptionValue builtIn="false" value="${HOME}/.platformio/packages/framework-arduinoavr/variants/tinyX5"/>
+									<listOptionValue builtIn="false" value="${HOME}/___/src/github/things/tiny85-pio-eclipse_lcd20x4-shows-distance/lib/LiquidCrystal_PCF8574_ATtiny85"/>
+									<listOptionValue builtIn="false" value="${HOME}/___/src/github/things/tiny85-pio-eclipse_lcd20x4-shows-distance/.piolibdeps/TinyWireM_ID797"/>
+									<listOptionValue builtIn="false" value="${HOME}/___/src/github/things/tiny85-pio-eclipse_lcd20x4-shows-distance/lib/LiquidCrystal_I2C_ATTiny85"/>
 									<listOptionValue builtIn="false" value="${HOME}/.platformio/lib/ESP8266_ID127"/>
 									<listOptionValue builtIn="false" value="${HOME}/.platformio/lib/LiquidCrystal_ID136"/>
 									<listOptionValue builtIn="false" value="${HOME}/.platformio/packages/framework-arduinoavr/libraries/__cores__/tiny/EEPROM"/>
@@ -69,6 +72,9 @@
 								<option id="org.eclipse.cdt.build.core.settings.holder.incpaths.1096940598" name="Include Paths" superClass="org.eclipse.cdt.build.core.settings.holder.incpaths" valueType="includePath">
 									<listOptionValue builtIn="false" value="${HOME}/.platformio/packages/framework-arduinoavr/cores/tiny"/>
 									<listOptionValue builtIn="false" value="${HOME}/.platformio/packages/framework-arduinoavr/variants/tinyX5"/>
+									<listOptionValue builtIn="false" value="${HOME}/___/src/github/things/tiny85-pio-eclipse_lcd20x4-shows-distance/lib/LiquidCrystal_PCF8574_ATtiny85"/>
+									<listOptionValue builtIn="false" value="${HOME}/___/src/github/things/tiny85-pio-eclipse_lcd20x4-shows-distance/.piolibdeps/TinyWireM_ID797"/>
+									<listOptionValue builtIn="false" value="${HOME}/___/src/github/things/tiny85-pio-eclipse_lcd20x4-shows-distance/lib/LiquidCrystal_I2C_ATTiny85"/>
 									<listOptionValue builtIn="false" value="${HOME}/.platformio/lib/ESP8266_ID127"/>
 									<listOptionValue builtIn="false" value="${HOME}/.platformio/lib/LiquidCrystal_ID136"/>
 									<listOptionValue builtIn="false" value="${HOME}/.platformio/packages/framework-arduinoavr/libraries/__cores__/tiny/EEPROM"/>
@@ -113,6 +119,9 @@
 								<option id="org.eclipse.cdt.build.core.settings.holder.incpaths.41298875" name="Include Paths" superClass="org.eclipse.cdt.build.core.settings.holder.incpaths" valueType="includePath">
 									<listOptionValue builtIn="false" value="${HOME}/.platformio/packages/framework-arduinoavr/cores/tiny"/>
 									<listOptionValue builtIn="false" value="${HOME}/.platformio/packages/framework-arduinoavr/variants/tinyX5"/>
+									<listOptionValue builtIn="false" value="${HOME}/___/src/github/things/tiny85-pio-eclipse_lcd20x4-shows-distance/lib/LiquidCrystal_PCF8574_ATtiny85"/>
+									<listOptionValue builtIn="false" value="${HOME}/___/src/github/things/tiny85-pio-eclipse_lcd20x4-shows-distance/.piolibdeps/TinyWireM_ID797"/>
+									<listOptionValue builtIn="false" value="${HOME}/___/src/github/things/tiny85-pio-eclipse_lcd20x4-shows-distance/lib/LiquidCrystal_I2C_ATTiny85"/>
 									<listOptionValue builtIn="false" value="${HOME}/.platformio/lib/ESP8266_ID127"/>
 									<listOptionValue builtIn="false" value="${HOME}/.platformio/lib/LiquidCrystal_ID136"/>
 									<listOptionValue builtIn="false" value="${HOME}/.platformio/packages/framework-arduinoavr/libraries/__cores__/tiny/EEPROM"/>
@@ -183,6 +192,9 @@
 								<option id="org.eclipse.cdt.build.core.settings.holder.incpaths.794801023" name="Include Paths" superClass="org.eclipse.cdt.build.core.settings.holder.incpaths" valueType="includePath">
 									<listOptionValue builtIn="false" value="${HOME}/.platformio/packages/framework-arduinoavr/cores/tiny"/>
 									<listOptionValue builtIn="false" value="${HOME}/.platformio/packages/framework-arduinoavr/variants/tinyX5"/>
+									<listOptionValue builtIn="false" value="${HOME}/___/src/github/things/tiny85-pio-eclipse_lcd20x4-shows-distance/lib/LiquidCrystal_PCF8574_ATtiny85"/>
+									<listOptionValue builtIn="false" value="${HOME}/___/src/github/things/tiny85-pio-eclipse_lcd20x4-shows-distance/.piolibdeps/TinyWireM_ID797"/>
+									<listOptionValue builtIn="false" value="${HOME}/___/src/github/things/tiny85-pio-eclipse_lcd20x4-shows-distance/lib/LiquidCrystal_I2C_ATTiny85"/>
 									<listOptionValue builtIn="false" value="${HOME}/.platformio/lib/ESP8266_ID127"/>
 									<listOptionValue builtIn="false" value="${HOME}/.platformio/lib/LiquidCrystal_ID136"/>
 									<listOptionValue builtIn="false" value="${HOME}/.platformio/packages/framework-arduinoavr/libraries/__cores__/tiny/EEPROM"/>
@@ -227,6 +239,9 @@
 								<option id="org.eclipse.cdt.build.core.settings.holder.incpaths.650084869" name="Include Paths" superClass="org.eclipse.cdt.build.core.settings.holder.incpaths" useByScannerDiscovery="false" valueType="includePath">
 									<listOptionValue builtIn="false" value="${HOME}/.platformio/packages/framework-arduinoavr/cores/tiny"/>
 									<listOptionValue builtIn="false" value="${HOME}/.platformio/packages/framework-arduinoavr/variants/tinyX5"/>
+									<listOptionValue builtIn="false" value="${HOME}/___/src/github/things/tiny85-pio-eclipse_lcd20x4-shows-distance/lib/LiquidCrystal_PCF8574_ATtiny85"/>
+									<listOptionValue builtIn="false" value="${HOME}/___/src/github/things/tiny85-pio-eclipse_lcd20x4-shows-distance/.piolibdeps/TinyWireM_ID797"/>
+									<listOptionValue builtIn="false" value="${HOME}/___/src/github/things/tiny85-pio-eclipse_lcd20x4-shows-distance/lib/LiquidCrystal_I2C_ATTiny85"/>
 									<listOptionValue builtIn="false" value="${HOME}/.platformio/lib/ESP8266_ID127"/>
 									<listOptionValue builtIn="false" value="${HOME}/.platformio/lib/LiquidCrystal_ID136"/>
 									<listOptionValue builtIn="false" value="${HOME}/.platformio/packages/framework-arduinoavr/libraries/__cores__/tiny/EEPROM"/>
@@ -271,6 +286,9 @@
 								<option id="org.eclipse.cdt.build.core.settings.holder.incpaths.1246337321" name="Include Paths" superClass="org.eclipse.cdt.build.core.settings.holder.incpaths" useByScannerDiscovery="false" valueType="includePath">
 									<listOptionValue builtIn="false" value="${HOME}/.platformio/packages/framework-arduinoavr/cores/tiny"/>
 									<listOptionValue builtIn="false" value="${HOME}/.platformio/packages/framework-arduinoavr/variants/tinyX5"/>
+									<listOptionValue builtIn="false" value="${HOME}/___/src/github/things/tiny85-pio-eclipse_lcd20x4-shows-distance/lib/LiquidCrystal_PCF8574_ATtiny85"/>
+									<listOptionValue builtIn="false" value="${HOME}/___/src/github/things/tiny85-pio-eclipse_lcd20x4-shows-distance/.piolibdeps/TinyWireM_ID797"/>
+									<listOptionValue builtIn="false" value="${HOME}/___/src/github/things/tiny85-pio-eclipse_lcd20x4-shows-distance/lib/LiquidCrystal_I2C_ATTiny85"/>
 									<listOptionValue builtIn="false" value="${HOME}/.platformio/lib/ESP8266_ID127"/>
 									<listOptionValue builtIn="false" value="${HOME}/.platformio/lib/LiquidCrystal_ID136"/>
 									<listOptionValue builtIn="false" value="${HOME}/.platformio/packages/framework-arduinoavr/libraries/__cores__/tiny/EEPROM"/>
