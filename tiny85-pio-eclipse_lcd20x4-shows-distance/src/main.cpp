@@ -1,49 +1,42 @@
 #include "Arduino.h"
-#include <TinyWireM.h>
-//#include "LiquidCrystal_I2C_ATTiny85.h"
+#include <TinyWireM.h> // instead of Wire.h which won't work for ATtiny85
 #include "LiquidCrystal_PCF8574_ATtiny85.h"
 
 // Ultrasonic Sensor HC-SR04
-const int trigPin = 4;
-const int echoPin = 3;
+const int trig_pin = 4;
+const int echo_pin = 3;
 
+// LCD
 #define I2C_ADDRESS 0x27
 const int WIDTH = 20;
 const int HEIGHT = 4;
-//LiquidCrystal_I2C_ATTiny85 lcd(I2C_ADDRESS, WIDTH, HEIGHT);
+
 LiquidCrystal_PCF8574_ATtiny85 lcd(I2C_ADDRESS);
 
-int good = true;
-
 void setup() {
-    pinMode(trigPin, OUTPUT);
-    pinMode(echoPin, INPUT);
+    pinMode(trig_pin, OUTPUT);
+    pinMode(echo_pin, INPUT);
 
-//    TinyWireM.begin();
     lcd.begin(WIDTH, HEIGHT); // initialize the lcd
-
     lcd.setBacklight(255);
-    lcd.home(); lcd.clear();
-//    lcd.print("Hello LCD");
-
-//    lcd.init();
-//    lcd.backlight();
+    lcd.home();
+    lcd.clear();
     lcd.setCursor(0, 0);
     lcd.print("Distance:");
 }
 
 int read_distance_in_cm() {
-    // Clears the trigPin
-    digitalWrite(trigPin, LOW);
+    // Clears the trig_pin
+    digitalWrite(trig_pin, LOW);
     delayMicroseconds(2);
 
-    // Sets the trigPin on HIGH state for 10 microseconds
-    digitalWrite(trigPin, HIGH);
+    // Sets the trig_pin on HIGH state for 10 microseconds
+    digitalWrite(trig_pin, HIGH);
     delayMicroseconds(10);
-    digitalWrite(trigPin, LOW);
+    digitalWrite(trig_pin, LOW);
 
-    // Reads the echoPin, returns the sound wave travel time in microseconds
-    long duration = pulseIn(echoPin, HIGH);
+    // Reads the echo_pin, returns the sound wave travel time in microseconds
+    long duration = pulseIn(echo_pin, HIGH);
 
     // Calculating the distance in cm
     int distance = duration * 0.034 / 2;
@@ -52,10 +45,6 @@ int read_distance_in_cm() {
 }
 
 void lcd_show_lines(const String& s0, const String& s1) {
-//    lcd.setBacklight(255);
-//    lcd.home();
-//    lcd.clear();
-
     lcd.setCursor(0, 1);
     lcd.print(s0);
 
@@ -69,4 +58,3 @@ void loop() {
 
     lcd_show_lines("----------", String(dist) + "cm        ");
 }
-
