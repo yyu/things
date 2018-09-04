@@ -227,8 +227,8 @@ void setup() {
     lcd.init();
     lcd.backlight();
 
-    show_gate(0, 0);
-    show_gate(0, 10);
+    show_gate(0, 1);
+    show_gate(0, 11);
 }
 
 void loop() {
