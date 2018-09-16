@@ -1,26 +1,73 @@
 #include <Arduino.h>
+#include <EEPROM.h>
 
-/*
-  ESP8266 Blink by Simon Peter
-  Blink the blue LED on the ESP-01 module
-  This example code is in the public domain
+const uint BLINK_HZ = 5;
+const uint BLINK_DELAY = 1000 / BLINK_HZ / 2;
 
-  The blue LED on the ESP-01 module is connected to GPIO1
-  (which is also the TXD pin; so we cannot use Serial.print() at the same time)
+const uint EEPROM_SIZE = 512;
 
-  Note that this sketch uses LED_BUILTIN to find the pin with the internal LED
-*/
+void blink(uint sec) {
+    uint n = BLINK_HZ * sec;
 
-void setup() {
-  pinMode(LED_BUILTIN, OUTPUT);     // Initialize the LED_BUILTIN pin as an output
+    for (uint i = 0; i < n; i++) {
+        digitalWrite(LED_BUILTIN, LOW);   // LOW means LED is on because it is active low on the ESP-01
+        delay(BLINK_DELAY);
+        digitalWrite(LED_BUILTIN, HIGH);  // Turn the LED off by making the voltage HIGH
+        delay(BLINK_DELAY);
+    }
 }
 
-// the loop function runs over and over again forever
+void eeprom_read_all(byte buf[]) {
+    EEPROM.begin(EEPROM_SIZE);
+
+    for (uint i = 0; i < EEPROM_SIZE; i++) {
+        buf[i] = EEPROM.read(i);
+    }
+
+    blink(1);  // blink on finish
+
+    EEPROM.end();
+}
+void eeprom_write_all(byte buf[]) {
+    EEPROM.begin(EEPROM_SIZE);
+
+    for (uint i = 0; i < EEPROM_SIZE; i++) {
+        EEPROM.write(i, buf[i]);
+    }
+
+    blink(3);  // blink on finish
+
+    EEPROM.end();
+}
+
+void serial_print_eeprom_all() {
+    byte eeprom_all[EEPROM_SIZE + 1];
+
+    eeprom_read_all(eeprom_all);
+
+    for (uint i = 0; i < EEPROM_SIZE; i++) {
+        Serial.print(i % 32 == 0 ? '\n' : ' ');
+        Serial.print(eeprom_all[i], 16);
+    }
+    Serial.println();
+    Serial.println("--");
+
+    eeprom_all[EEPROM_SIZE] = '\0';
+    Serial.print((char*)eeprom_all);  // what's is? 78b4e04d81022324f932273ce2847e44
+
+    Serial.println("==========");
+}
+
+void setup() {
+    delay(10000); // so that I have plenty of time to open serial monitor
+
+    Serial.begin(115200);
+
+    pinMode(LED_BUILTIN, OUTPUT);     // Initialize the LED_BUILTIN pin as an output
+
+    serial_print_eeprom_all();
+}
+
 void loop() {
-  digitalWrite(LED_BUILTIN, LOW);   // Turn the LED on (Note that LOW is the voltage level
-                                    // but actually the LED is on; this is because
-                                    // it is active low on the ESP-01)
-  delay(1000);                      // Wait for a second
-  digitalWrite(LED_BUILTIN, HIGH);  // Turn the LED off by making the voltage HIGH
-  delay(2000);                      // Wait for two seconds (to demonstrate the active low LED)
+    delay(1000);
 }
