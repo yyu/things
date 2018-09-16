@@ -42,7 +42,7 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="platformio.ini" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/platformio.ini"></entry>
+        <entry file="file://$PROJECT_DIR$/platformio.ini" />
       </file>
     </leaf>
   </component>
@@ -54,8 +54,8 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="252" />
-    <option name="y" value="21" />
+    <option name="x" value="507" />
+    <option name="y" value="191" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
@@ -137,76 +137,86 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="FullScreen" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/platformio.ini" />
     <property name="recentsLimit" value="5" />
+    <property name="restartRequiresConfirmation" value="true" />
     <property name="settings.editor.selected.configurable" value="CPPToolchains" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/platformio.ini" />
-    <property name="restartRequiresConfirmation" value="true" />
-    <property name="FullScreen" value="false" />
   </component>
-  <component name="RunManager" selected="Application.PLATFORMIO_BUILD">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="esp8266-pio-clion-hello" TARGET_NAME="esp8266-pio-clion-hello" CONFIG_NAME="Debug">
-      <envs />
-      <method />
+  <component name="RunManager" selected="Application.PLATFORMIO_UPLOAD">
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PLATFORMIO_BUILD" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="esp8266-pio-clion-hello" TARGET_NAME="PLATFORMIO_BUILD" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PLATFORMIO_CLEAN" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="esp8266-pio-clion-hello" TARGET_NAME="PLATFORMIO_CLEAN" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PLATFORMIO_PROGRAM" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="esp8266-pio-clion-hello" TARGET_NAME="PLATFORMIO_PROGRAM" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PLATFORMIO_REBUILD_PROJECT_INDEX" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="esp8266-pio-clion-hello" TARGET_NAME="PLATFORMIO_REBUILD_PROJECT_INDEX" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PLATFORMIO_TEST" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="esp8266-pio-clion-hello" TARGET_NAME="PLATFORMIO_TEST" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PLATFORMIO_UPDATE" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="esp8266-pio-clion-hello" TARGET_NAME="PLATFORMIO_UPDATE_ALL" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PLATFORMIO_UPLOAD" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="esp8266-pio-clion-hello" TARGET_NAME="PLATFORMIO_UPLOAD" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PLATFORMIO_UPLOADFS" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="esp8266-pio-clion-hello" TARGET_NAME="PLATFORMIO_UPLOADFS" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="esp8266-pio-clion-hello" TARGET_NAME="esp8266-pio-clion-hello" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
       <node-options />
       <gulpfile />
       <tasks />
       <arguments />
       <pass-parent-envs>true</pass-parent-envs>
-      <envs />
-      <method />
+      <method v="2" />
     </configuration>
-    <configuration default="false" name="Build All" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="PLATFORMIO_BUILD" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="esp8266-pio-clion-hello" TARGET_NAME="PLATFORMIO_BUILD" CONFIG_NAME="Debug">
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="PLATFORMIO_CLEAN" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="esp8266-pio-clion-hello" TARGET_NAME="PLATFORMIO_CLEAN" CONFIG_NAME="Debug">
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="PLATFORMIO_TEST" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="esp8266-pio-clion-hello" TARGET_NAME="PLATFORMIO_TEST" CONFIG_NAME="Debug">
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="PLATFORMIO_UPLOAD" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="esp8266-pio-clion-hello" TARGET_NAME="PLATFORMIO_UPLOAD" CONFIG_NAME="Debug">
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="PLATFORMIO_UPLOADFS" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="esp8266-pio-clion-hello" TARGET_NAME="PLATFORMIO_UPLOADFS" CONFIG_NAME="Debug">
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="PLATFORMIO_PROGRAM" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="esp8266-pio-clion-hello" TARGET_NAME="PLATFORMIO_PROGRAM" CONFIG_NAME="Debug">
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="PLATFORMIO_UPDATE" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="esp8266-pio-clion-hello" TARGET_NAME="PLATFORMIO_UPDATE_ALL" CONFIG_NAME="Debug">
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="PLATFORMIO_REBUILD_PROJECT_INDEX" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="esp8266-pio-clion-hello" TARGET_NAME="PLATFORMIO_REBUILD_PROJECT_INDEX" CONFIG_NAME="Debug">
-      <envs />
-      <method />
-    </configuration>
-    <list size="9">
-      <item index="0" class="java.lang.String" itemvalue="Application.Build All" />
-      <item index="1" class="java.lang.String" itemvalue="Application.PLATFORMIO_BUILD" />
-      <item index="2" class="java.lang.String" itemvalue="Application.PLATFORMIO_UPLOAD" />
-      <item index="3" class="java.lang.String" itemvalue="Application.PLATFORMIO_CLEAN" />
-      <item index="4" class="java.lang.String" itemvalue="Application.PLATFORMIO_TEST" />
-      <item index="5" class="java.lang.String" itemvalue="Application.PLATFORMIO_PROGRAM" />
-      <item index="6" class="java.lang.String" itemvalue="Application.PLATFORMIO_UPLOADFS" />
-      <item index="7" class="java.lang.String" itemvalue="Application.PLATFORMIO_UPDATE" />
-      <item index="8" class="java.lang.String" itemvalue="Application.PLATFORMIO_REBUILD_PROJECT_INDEX" />
+    <list>
+      <item itemvalue="Application.Build All" />
+      <item itemvalue="Application.PLATFORMIO_BUILD" />
+      <item itemvalue="Application.PLATFORMIO_UPLOAD" />
+      <item itemvalue="Application.PLATFORMIO_CLEAN" />
+      <item itemvalue="Application.PLATFORMIO_TEST" />
+      <item itemvalue="Application.PLATFORMIO_PROGRAM" />
+      <item itemvalue="Application.PLATFORMIO_UPLOADFS" />
+      <item itemvalue="Application.PLATFORMIO_UPDATE" />
+      <item itemvalue="Application.PLATFORMIO_REBUILD_PROJECT_INDEX" />
     </list>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
