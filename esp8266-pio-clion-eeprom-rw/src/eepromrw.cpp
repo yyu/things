@@ -26,14 +26,17 @@ void eeprom_read_all(byte buf[]) {
 
     blink(1, 5);  // blink on finish
 }
-void eeprom_write_all(byte buf[], size_t n) {
+void eeprom_write_all(const byte buf[], size_t n) {
     EEPROM.begin(EEPROM_SIZE);
 
-    for (uint i = 0; i < n; i++) {
-        EEPROM.write(i, buf[i]);
+    const byte padding = 0;
+    for (uint i = 0; i < EEPROM_SIZE; i++) {
+        byte b = i < n ? buf[i] : padding;
+        EEPROM.write(i, b);
     }
 
     EEPROM.commit();
+    EEPROM.end();
 
     blink(5, 1);  // blink on finish
 }
