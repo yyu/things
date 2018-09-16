@@ -26,6 +26,7 @@ void eeprom_read_all(byte buf[]) {
 
     blink(1, 5);  // blink on finish
 }
+
 void eeprom_write_all(const byte buf[], size_t n) {
     EEPROM.begin(EEPROM_SIZE);
 
