@@ -18,6 +18,7 @@ char ReplyBuffer[] = "acknowledged";       // a string to send back
 WiFiUDP udp;
 
 bool status = true; // for hue light bulb
+unsigned long timestamp = 0;
 
 void initWiFi() {
     WiFi.mode(WIFI_AP_STA);
@@ -60,6 +61,14 @@ void initUDP() {
 }
 
 void switch_hue() {
+    unsigned long now = millis();
+
+    if (now - timestamp < 1000) {
+        return;
+    }
+
+    timestamp = now;
+
     HTTPClient http;
 
     String url_prefix = "http://192.168.10.110/api/";
@@ -83,6 +92,38 @@ void switch_hue() {
     Serial.println(response);
 
     http.end();
+}
+
+void showClients()
+{
+    struct station_info *stat_info;
+    stat_info = wifi_softap_get_station_info();
+    uint8_t client_count = wifi_softap_get_station_num();
+    String str = "Number of clients = ";
+    str += String(client_count);
+    str += "\r\nList of clients : \r\n";
+    int i = 1;
+    while (stat_info) {
+        str += "Station #";
+        str += String(i);
+        str += " : ";
+        str += String(stat_info->bssid[0], HEX);
+        str += ":";
+        str += String(stat_info->bssid[1], HEX);
+        str += ":";
+        str += String(stat_info->bssid[2], HEX);
+        str += ":";
+        str += String(stat_info->bssid[3], HEX);
+        str += ":";
+        str += String(stat_info->bssid[4], HEX);
+        str += ":";
+        str += String(stat_info->bssid[5], HEX);
+        str += "\r\n";
+        i++;
+        stat_info = STAILQ_NEXT(stat_info, next);
+//    stat_info = stat_info->next;
+    }
+    Serial.println(str);
 }
 
 void setup() {
@@ -127,7 +168,8 @@ void loop() {
         udp.endPacket();
 
         switch_hue();
+        showClients();
     }
 
-    delay(10000); // so that the light won't be turned on/off too frequently
+    delay(100);
 }
