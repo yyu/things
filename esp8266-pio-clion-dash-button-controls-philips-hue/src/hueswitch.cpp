@@ -144,6 +144,14 @@ void init_udp() {
     Serial.println("UDP server started");
 }
 
+char * join_array(char * result, const char * format, unsigned char hex_array[], char sep, size_t n) {
+    for (int k = 0; k < n; k++) {
+        sprintf(result + k * 3, format, hex_array[k]);
+        result[k * 3 + 2] = sep;
+    }
+    result[n * 3 - 1] = '\0';
+    return result;
+}
 
 
 void showClients()
@@ -161,12 +169,7 @@ void showClients()
         str += ": ";
 
         char mac_addr[18];
-        for (int k = 0; k < 6; k++) {
-            sprintf(mac_addr + k * 3, "%0X", stat_info->bssid[k]);
-            mac_addr[k * 3 + 2] = '~';
-        }
-        mac_addr[17] = '\0';
-        str += mac_addr;
+        str += join_array(mac_addr, "%0X", stat_info->bssid, ':', 6);
 
         IPAddress ip(stat_info->ip.addr);
         str += " ";

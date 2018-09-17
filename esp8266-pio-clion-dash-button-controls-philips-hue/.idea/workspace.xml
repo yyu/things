@@ -59,13 +59,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="6476" />
+          <entry key="cpp" value="7030" />
           <entry key="h" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="ObjectiveC" value="6482" />
+          <entry key="ObjectiveC" value="7036" />
         </counts>
       </usages-collector>
     </session>
@@ -78,8 +78,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/hueswitch.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="739">
-              <caret line="169" selection-start-line="169" selection-end-line="169" />
+            <state relative-caret-position="769">
+              <caret line="171" selection-start-line="171" selection-end-line="171" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
                 <element signature="e#138#2064#1" />
@@ -120,7 +120,7 @@
         <entry file="file://$USER_HOME$/.platformio/packages/framework-arduinoespressif8266/cores/esp8266/WString.h">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="391">
-              <caret line="234" column="13" selection-start-line="234" selection-start-column="13" selection-end-line="234" selection-end-column="13" />
+              <caret line="119" column="26" selection-start-line="119" selection-start-column="26" selection-end-line="119" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -155,8 +155,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/.platformio/packages/framework-arduinoespressif8266/tools/sdk/include/user_interface.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-748">
-              <caret line="353" column="7" selection-start-line="353" selection-start-column="7" selection-end-line="353" selection-end-column="7" />
+            <state relative-caret-position="391">
+              <caret line="356" column="10" selection-start-line="356" selection-start-column="10" selection-end-line="356" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -189,9 +189,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="23" />
-    <option name="width" value="2133" />
-    <option name="height" value="1366" />
+    <option name="x" value="586" />
+    <option name="y" value="28" />
+    <option name="width" value="1911" />
+    <option name="height" value="1361" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -382,24 +383,24 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20370000" />
+    <option name="totallyTimeSpent" value="20982000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2560" height="1366" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info id="Project" order="1" visible="true" weight="0.13780779" />
+      <window_info id="Project" order="1" sideWeight="0.49960032" visible="true" weight="0.13780779" />
+      <window_info id="Database" order="2" sideWeight="0.5003997" side_tool="true" visible="true" weight="0.13780779" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.3299435" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="TODO" order="2" />
       <window_info anchor="bottom" id="CMake" order="3" />
       <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="5" sideWeight="0.49973276" weight="0.32933652" />
-      <window_info anchor="right" id="Database" order="0" />
-      <window_info anchor="right" id="Structure" order="1" sideWeight="0.49880096" weight="0.41818905" />
-      <window_info anchor="right" id="Serial Monitor" order="2" sideWeight="0.50359714" side_tool="true" visible="true" weight="0.43169183" />
-      <window_info active="true" anchor="right" id="Messages" order="3" sideWeight="0.4964029" visible="true" weight="0.43169183" />
+      <window_info anchor="right" id="Structure" order="0" sideWeight="0.4980016" weight="0.41818905" />
+      <window_info anchor="right" id="Serial Monitor" order="1" sideWeight="0.5043965" side_tool="true" visible="true" weight="0.43169183" />
+      <window_info active="true" anchor="right" id="Messages" order="2" sideWeight="0.49560353" visible="true" weight="0.43169183" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -507,13 +508,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.platformio/packages/framework-arduinoespressif8266/cores/esp8266/WString.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="234" column="13" selection-start-line="234" selection-start-column="13" selection-end-line="234" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.platformio/packages/framework-arduinoespressif8266/cores/esp8266/WString.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -521,17 +515,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/.platformio/packages/framework-arduinoespressif8266/cores/esp8266/WString.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="119" column="26" selection-start-line="119" selection-start-column="26" selection-end-line="119" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$USER_HOME$/.platformio/packages/framework-arduinoespressif8266/tools/sdk/include/user_interface.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-748">
-          <caret line="353" column="7" selection-start-line="353" selection-start-column="7" selection-end-line="353" selection-end-column="7" />
+        <state relative-caret-position="391">
+          <caret line="356" column="10" selection-start-line="356" selection-start-column="10" selection-end-line="356" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/hueswitch.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="739">
-          <caret line="169" selection-start-line="169" selection-end-line="169" />
+        <state relative-caret-position="769">
+          <caret line="171" selection-start-line="171" selection-end-line="171" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
             <element signature="e#138#2064#1" />
