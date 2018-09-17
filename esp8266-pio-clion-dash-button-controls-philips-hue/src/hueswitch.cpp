@@ -105,7 +105,7 @@ void init_wifi() {
 
     Serial.println("AP");
     WiFi.mode(WIFI_AP_STA);
-    WiFi.softAP(ap); // , password_as_ap, /* channel */ 1, /* hide ssid */ 0, /* max_connection */ 4);
+    WiFi.softAP(ap, password_as_ap, /* channel */ 1, /* hide ssid */ 0, /* max_connection */ 4);
 
     Serial.println("STATION");
     WiFi.begin(ssid, password);
@@ -144,6 +144,8 @@ void init_udp() {
     Serial.println("UDP server started");
 }
 
+
+
 void showClients()
 {
     struct station_info *stat_info;
@@ -156,18 +158,15 @@ void showClients()
     while (stat_info) {
         str += "Station #";
         str += String(i);
-        str += " : ";
-        str += String(stat_info->bssid[0], HEX);
-        str += ":";
-        str += String(stat_info->bssid[1], HEX);
-        str += ":";
-        str += String(stat_info->bssid[2], HEX);
-        str += ":";
-        str += String(stat_info->bssid[3], HEX);
-        str += ":";
-        str += String(stat_info->bssid[4], HEX);
-        str += ":";
-        str += String(stat_info->bssid[5], HEX);
+        str += ": ";
+
+        char mac_addr[18];
+        for (int k = 0; k < 6; k++) {
+            sprintf(mac_addr + k * 3, "%0X", stat_info->bssid[k]);
+            mac_addr[k * 3 + 2] = '~';
+        }
+        mac_addr[17] = '\0';
+        str += mac_addr;
 
         IPAddress ip(stat_info->ip.addr);
         str += " ";
@@ -175,9 +174,9 @@ void showClients()
         str += " ~ ";
 
         for (int k = 0; k < 4; k++) {
-            Serial.print(ip[k], DEC);
+            str += String(ip[k], DEC);
             if (k < 3) {
-                Serial.print(".");
+                str += "-";
             }
         }
 
@@ -215,9 +214,7 @@ void switch_hue() {
         Serial.println("failed to begin http");
         return;
     }
-//    http.addHeader("Content-Type", "text/plain");
-    http.addHeader("Content-Type", "application/x-www-form-urlencoded");
-    http.addHeader("Accept", "*/*");
+    http.addHeader("Content-Type", "text/plain");
 
     Serial.println("before HTTP PUT");
     int httpCode;
