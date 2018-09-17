@@ -144,48 +144,34 @@ void init_udp() {
     Serial.println("UDP server started");
 }
 
-char * join_array(char * result, const char * format, unsigned char hex_array[], char sep, size_t n) {
+template <typename T>
+std::string join_array(const char * format, T a, char sep, size_t n) {
+    std::string s;
+    char num_buf[16];
     for (int k = 0; k < n; k++) {
-        sprintf(result + k * 3, format, hex_array[k]);
-        result[k * 3 + 2] = sep;
+        sprintf(num_buf, format, a[k]);
+        s += num_buf;
+        if (k != n - 1) {
+            s += sep;
+        }
     }
-    result[n * 3 - 1] = '\0';
-    return result;
+    return s;
 }
-
 
 void showClients()
 {
-    struct station_info *stat_info;
-    stat_info = wifi_softap_get_station_info();
+    struct station_info * stat_info = wifi_softap_get_station_info();
     uint8_t client_count = wifi_softap_get_station_num();
-    String str = "Number of clients = ";
-    str += String(client_count);
-    str += "\r\nList of clients : \r\n";
-    int i = 1;
+
+    String str = "Number of clients = " + String(client_count) + "\n";
     while (stat_info) {
-        str += "Station #";
-        str += String(i);
-        str += ": ";
-
-        char mac_addr[18];
-        str += join_array(mac_addr, "%0X", stat_info->bssid, ':', 6);
-
-        IPAddress ip(stat_info->ip.addr);
+        std::string mac_addr = join_array("%0X", stat_info->bssid, ':', 6);
+        str += mac_addr.c_str();
         str += " ";
-        str += ip;
-        str += " ~ ";
+        IPAddress ip(stat_info->ip.addr);
+        std::string ip_addr = join_array("%0d", ip, '.', 4);
+        str += ip_addr.c_str();
 
-        for (int k = 0; k < 4; k++) {
-            str += String(ip[k], DEC);
-            if (k < 3) {
-                str += "-";
-            }
-        }
-
-        str += "\r\n";
-
-        i++;
         stat_info = STAILQ_NEXT(stat_info, next);
     }
 
@@ -194,9 +180,6 @@ void showClients()
 
 void switch_hue() {
     char * hue_auth = params.get_hue_auth();
-    Serial.print("<");
-    Serial.print(hue_auth);
-    Serial.println(">");
 
     unsigned long now = millis();
 
