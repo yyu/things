@@ -22,7 +22,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec922180-b3d3-40f1-af0b-2568113a9075" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/hueswitch.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/hueswitch.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../esp8266-pio-clion-eeprom-rw/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../esp8266-pio-clion-eeprom-rw/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="platformio.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -55,6 +55,7 @@
     <session id="1997184864">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.63" value="1" />
           <entry key="project.opened" value="2" />
@@ -63,7 +64,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="cpp" value="7" />
-          <entry key="h" value="15" />
+          <entry key="h" value="17" />
           <entry key="hash_map" value="1" />
           <entry key="map" value="1" />
           <entry key="tcc" value="1" />
@@ -71,18 +72,18 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="ObjectiveC" value="25" />
+          <entry key="ObjectiveC" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="cpp" value="8047" />
-          <entry key="h" value="6" />
+          <entry key="h" value="97" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="ObjectiveC" value="8053" />
+          <entry key="ObjectiveC" value="8144" />
         </counts>
       </usages-collector>
     </session>
@@ -95,8 +96,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/.platformio/packages/toolchain-xtensa/xtensa-lx106-elf/include/c++/4.8.2/bits/basic_string.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="997" column="6" selection-start-line="997" selection-start-column="6" selection-end-line="997" selection-end-column="6" />
+            <state relative-caret-position="-911">
+              <caret line="131" lean-forward="true" selection-start-line="131" selection-end-line="131" />
             </state>
           </provider>
         </entry>
@@ -104,12 +105,57 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/hueswitch.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="173" selection-start-line="173" selection-end-line="173" />
+            <state relative-caret-position="294">
+              <caret line="167" column="17" selection-start-line="167" selection-start-column="17" selection-end-line="167" selection-end-column="17" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
                 <element signature="e#138#2064#1" />
                 <element signature="e#3756#3768#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.platformio/packages/toolchain-xtensa/xtensa-lx106-elf/include/c++/4.8.2/bits/stringfwd.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="810">
+              <caret line="56" column="14" selection-start-line="56" selection-start-column="14" selection-end-line="56" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.platformio/packages/framework-arduinoespressif8266/tools/sdk/libc/xtensa-lx106-elf/include/stdatomic.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#1492#1514#0" expanded="true" />
+                <element signature="e#1601#1624#0" expanded="true" />
+                <element signature="e#1653#1675#0" expanded="true" />
+                <element signature="e#1700#1722#0" expanded="true" />
+                <element signature="e#1867#1925#0" expanded="true" />
+                <element signature="e#1968#2026#0" expanded="true" />
+                <element signature="e#2073#2138#0" expanded="true" />
+                <element signature="e#2185#2250#0" expanded="true" />
+                <element signature="e#2296#2359#0" expanded="true" />
+                <element signature="e#2403#2463#0" expanded="true" />
+                <element signature="e#2505#2561#0" expanded="true" />
+                <element signature="e#2604#2662#0" expanded="true" />
+                <element signature="e#2706#2766#0" expanded="true" />
+                <element signature="e#2812#2875#0" expanded="true" />
+                <element signature="e#2947#3049#0" expanded="true" />
+                <element signature="e#4307#4342#0" expanded="true" />
+                <element signature="e#4374#4405#0" expanded="true" />
+                <element signature="e#4544#4579#0" expanded="true" />
+                <element signature="e#4611#4642#0" expanded="true" />
+                <element signature="e#4753#4863#0" expanded="true" />
+                <element signature="e#4895#4973#0" expanded="true" />
+                <element signature="e#5004#5098#0" expanded="true" />
+                <element signature="e#5756#5847#0" expanded="true" />
+                <element signature="e#7137#8360#0" expanded="true" />
+                <element signature="e#8391#9680#0" expanded="true" />
+                <element signature="e#10358#10549#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -154,15 +200,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.platformio/packages/framework-arduinoespressif8266/tools/sdk/lwip/include/lwip/ip_addr.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="645">
-              <caret line="44" column="8" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/.platformio/packages/framework-arduinoespressif8266/cores/esp8266/WString.h">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="391">
@@ -176,15 +213,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="645">
               <caret line="70" column="21" selection-start-line="70" selection-start-column="21" selection-end-line="70" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.platformio/packages/framework-arduinoespressif8266/tools/sdk/include/user_interface.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="356" column="10" selection-start-line="356" selection-start-column="10" selection-end-line="356" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -207,11 +235,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="586" />
-    <option name="y" value="28" />
-    <option name="width" value="1911" />
-    <option name="height" value="1361" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="383" />
+    <option name="y" value="23" />
+    <option name="width" value="2560" />
+    <option name="height" value="1366" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -303,6 +331,15 @@
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
               <item name="Header Search Paths" type="70bed36:NamedLibraryElementNode" />
               <item name="include" type="462c0819:PsiDirectoryNode" />
+              <item name="c++" type="462c0819:PsiDirectoryNode" />
+              <item name="4.8.2" type="462c0819:PsiDirectoryNode" />
+              <item name="bits" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="esp8266-pio-clion-dash-button-controls-philips-hue" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Header Search Paths" type="70bed36:NamedLibraryElementNode" />
+              <item name="include" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="esp8266-pio-clion-dash-button-controls-philips-hue" type="b2602c69:ProjectViewProjectNode" />
@@ -325,7 +362,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="FullScreen" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="map&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="stdatomic&#9;FILE&#9;file:///Users/forresty/.platformio/packages/framework-arduinoespressif8266/tools/sdk/libc/xtensa-lx106-elf/include/stdatomic.h&#10;map&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/platformio.ini" />
     <property name="recentsLimit" value="5" />
@@ -433,24 +470,23 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23390000" />
+    <option name="totallyTimeSpent" value="25309000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="2560" height="1366" extended-state="6" />
-    <editor active="true" />
+    <frame x="383" y="23" width="2560" height="1366" extended-state="0" />
     <layout>
-      <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info id="Project" order="1" sideWeight="0.49960032" visible="true" weight="0.13780779" />
-      <window_info id="Database" order="2" sideWeight="0.5003997" side_tool="true" visible="true" weight="0.13780779" />
+      <window_info id="Structure" order="0" sideWeight="0.31494805" side_tool="true" visible="true" weight="0.13780779" />
+      <window_info id="Favorites" order="1" side_tool="true" />
+      <window_info active="true" id="Project" order="2" sideWeight="0.685052" visible="true" weight="0.13780779" />
+      <window_info id="Database" order="3" sideWeight="0.5003997" side_tool="true" weight="0.13780779" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.3299435" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="TODO" order="2" />
       <window_info anchor="bottom" id="CMake" order="3" />
       <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="5" sideWeight="0.49973276" weight="0.32933652" />
-      <window_info anchor="right" id="Structure" order="0" sideWeight="0.4980016" weight="0.41818905" />
-      <window_info anchor="right" id="Serial Monitor" order="1" sideWeight="0.5043965" side_tool="true" visible="true" weight="0.43169183" />
-      <window_info active="true" anchor="right" id="Messages" order="2" sideWeight="0.49560353" visible="true" weight="0.43169183" />
+      <window_info anchor="right" id="Serial Monitor" order="0" sideWeight="0.5043965" side_tool="true" visible="true" weight="0.43169183" />
+      <window_info anchor="right" id="Messages" order="1" sideWeight="0.49560353" visible="true" weight="0.43169183" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -609,17 +645,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/.platformio/packages/framework-arduinoespressif8266/tools/sdk/libc/xtensa-lx106-elf/include/stdatomic.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#1492#1514#0" expanded="true" />
+            <element signature="e#1601#1624#0" expanded="true" />
+            <element signature="e#1653#1675#0" expanded="true" />
+            <element signature="e#1700#1722#0" expanded="true" />
+            <element signature="e#1867#1925#0" expanded="true" />
+            <element signature="e#1968#2026#0" expanded="true" />
+            <element signature="e#2073#2138#0" expanded="true" />
+            <element signature="e#2185#2250#0" expanded="true" />
+            <element signature="e#2296#2359#0" expanded="true" />
+            <element signature="e#2403#2463#0" expanded="true" />
+            <element signature="e#2505#2561#0" expanded="true" />
+            <element signature="e#2604#2662#0" expanded="true" />
+            <element signature="e#2706#2766#0" expanded="true" />
+            <element signature="e#2812#2875#0" expanded="true" />
+            <element signature="e#2947#3049#0" expanded="true" />
+            <element signature="e#4307#4342#0" expanded="true" />
+            <element signature="e#4374#4405#0" expanded="true" />
+            <element signature="e#4544#4579#0" expanded="true" />
+            <element signature="e#4611#4642#0" expanded="true" />
+            <element signature="e#4753#4863#0" expanded="true" />
+            <element signature="e#4895#4973#0" expanded="true" />
+            <element signature="e#5004#5098#0" expanded="true" />
+            <element signature="e#5756#5847#0" expanded="true" />
+            <element signature="e#7137#8360#0" expanded="true" />
+            <element signature="e#8391#9680#0" expanded="true" />
+            <element signature="e#10358#10549#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.platformio/packages/toolchain-xtensa/xtensa-lx106-elf/include/c++/4.8.2/bits/stringfwd.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="56" column="14" selection-start-line="56" selection-start-column="14" selection-end-line="56" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$USER_HOME$/.platformio/packages/toolchain-xtensa/xtensa-lx106-elf/include/c++/4.8.2/bits/basic_string.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="997" column="6" selection-start-line="997" selection-start-column="6" selection-end-line="997" selection-end-column="6" />
+        <state relative-caret-position="-911">
+          <caret line="131" lean-forward="true" selection-start-line="131" selection-end-line="131" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/hueswitch.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="173" selection-start-line="173" selection-end-line="173" />
+        <state relative-caret-position="294">
+          <caret line="167" column="17" selection-start-line="167" selection-start-column="17" selection-end-line="167" selection-end-column="17" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
             <element signature="e#138#2064#1" />

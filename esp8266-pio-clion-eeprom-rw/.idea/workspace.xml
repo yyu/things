@@ -23,7 +23,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ec922180-b3d3-40f1-af0b-2568113a9075" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/../esp8266-pio-clion-dash-button-controls-philips-hue/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../esp8266-pio-clion-dash-button-controls-philips-hue/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../esp8266-pio-clion-dash-button-controls-philips-hue/src/hueswitch.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../esp8266-pio-clion-dash-button-controls-philips-hue/src/hueswitch.cpp" afterDir="false" />
     </list>
     <ignored path="platformio.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,6 +41,7 @@
     <session id="1093586881">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.33" value="1" />
           <entry key="project.opened" value="2" />
@@ -155,7 +155,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="586" />
     <option name="y" value="28" />
     <option name="width" value="1911" />
@@ -348,8 +348,7 @@
     <option name="totallyTimeSpent" value="8592000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="586" y="28" width="1911" height="1361" extended-state="0" />
-    <editor active="true" />
+    <frame x="586" y="28" width="1911" height="1361" extended-state="1" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info id="Project" order="1" visible="true" weight="0.18566078" />
