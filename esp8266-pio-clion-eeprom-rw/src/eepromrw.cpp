@@ -55,7 +55,8 @@ void serial_print_eeprom_all() {
     Serial.println("--");
 
     eeprom_all[EEPROM_SIZE] = '\0';
-    Serial.print((char*)eeprom_all);  // what's is? 78b4e04d81022324f932273ce2847e44
+    Serial.print((char*)eeprom_all);    // what's is? 78b4e04d81022324f932273ce2847e44
+                                        //  and this? 2420ab8f0523fe5b2c6672735e5180ee
 
     Serial.println();
     Serial.println("==========");
@@ -77,7 +78,7 @@ void setup() {
                      "SSID= "
                      "PASSWORD= "
                      "HUE_AUTH=";
-//    eeprom_write_all((byte*)s, strlen(s) + 1);
+    eeprom_write_all((byte*)s, strlen(s) + 1);
 
     delay(1000);
 

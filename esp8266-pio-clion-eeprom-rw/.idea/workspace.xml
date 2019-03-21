@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="esp8266-pio-clion-eeprom-rw" targetName="PLATFORMIO_UPDATE_ALL" />
       <config projectName="esp8266-pio-clion-eeprom-rw" targetName="DEBUG" />
       <config projectName="esp8266-pio-clion-eeprom-rw" targetName="PLATFORMIO_BUILD" />
       <config projectName="esp8266-pio-clion-eeprom-rw" targetName="PLATFORMIO_UPLOAD" />
       <config projectName="esp8266-pio-clion-eeprom-rw" targetName="PLATFORMIO_REBUILD_PROJECT_INDEX" />
       <config projectName="esp8266-pio-clion-eeprom-rw" targetName="PLATFORMIO_TEST" />
-      <config projectName="esp8266-pio-clion-eeprom-rw" targetName="esp8266-pio-clion-eeprom-rw" />
       <config projectName="esp8266-pio-clion-eeprom-rw" targetName="PLATFORMIO_PROGRAM" />
+      <config projectName="esp8266-pio-clion-eeprom-rw" targetName="esp8266-pio-clion-eeprom-rw" />
+      <config projectName="esp8266-pio-clion-eeprom-rw" targetName="PLATFORMIO_UPDATE_ALL" />
       <config projectName="esp8266-pio-clion-eeprom-rw" targetName="PLATFORMIO_UPLOADFS" />
       <config projectName="esp8266-pio-clion-eeprom-rw" targetName="PLATFORMIO" />
       <config projectName="esp8266-pio-clion-eeprom-rw" targetName="PLATFORMIO_CLEAN" />
@@ -22,7 +22,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec922180-b3d3-40f1-af0b-2568113a9075" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/../esp8266-pio-clion-ap/src/ap.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../esp8266-pio-clion-ap-dns/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../esp8266-pio-clion-ap-dns/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../esp8266-pio-clion-ap-dns/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../esp8266-pio-clion-ap-dns/src/apdns.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../esp8266-pio-clion-ap-dns/src/apdns.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../esp8266-pio-clion-ap/.idea/clion.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../esp8266-pio-clion-ap/.idea/clion.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../esp8266-pio-clion-ap/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../esp8266-pio-clion-ap/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../esp8266-pio-clion-ap/.pioenvs/structure.hash" beforeDir="false" afterPath="$PROJECT_DIR$/../esp8266-pio-clion-ap/.pioenvs/structure.hash" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../esp8266-pio-clion-dash-button-controls-philips-hue/.idea/codeStyles/Project.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../esp8266-pio-clion-dash-button-controls-philips-hue/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../esp8266-pio-clion-dash-button-controls-philips-hue/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/eepromrw.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/eepromrw.cpp" afterDir="false" />
     </list>
     <ignored path="platformio.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,54 +48,16 @@
     <option name="PATCH_PATH" value="" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
-  <component name="FUSProjectUsageTrigger">
-    <session id="1093586881">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.33" value="1" />
-          <entry key="project.opened" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="cpp" value="3" />
-          <entry key="h" value="3" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="ObjectiveC" value="6" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="cpp" value="3332" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="ObjectiveC" value="3332" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FavoritesManager">
     <favorites_list name="esp8266-pio-clion-eeprom-rw" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/platformio.ini">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/eepromrw.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="739">
-              <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
+            <state relative-caret-position="1038">
+              <caret line="81" selection-start-line="81" selection-end-line="81" />
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
               </folding>
@@ -93,12 +66,23 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.platformio/packages/framework-arduinoespressif8266/libraries/EEPROM/EEPROM.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1125">
-              <caret line="75" column="18" selection-start-line="75" selection-start-column="18" selection-end-line="75" selection-end-column="18" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/lib/readme.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.travis.yml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CMakeListsPrivate.txt">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -113,7 +97,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/.platformio/packages/framework-arduinoespressif8266/cores/esp8266/Print.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1065">
+            <state relative-caret-position="1005">
               <caret line="71" column="15" selection-start-line="71" selection-start-column="15" selection-end-line="71" selection-end-column="15" />
             </state>
           </provider>
@@ -122,7 +106,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/.platformio/packages/framework-arduinoespressif8266/cores/esp8266/Print.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3135">
+            <state relative-caret-position="3060">
               <caret line="209" column="14" selection-start-line="209" selection-start-column="14" selection-end-line="209" selection-end-column="14" />
             </state>
           </provider>
@@ -131,7 +115,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/.platformio/packages/framework-arduinoespressif8266/tools/sdk/libc/xtensa-lx106-elf/include/sys/types.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1665">
+            <state relative-caret-position="1260">
               <caret line="111" column="24" selection-start-line="111" selection-start-column="24" selection-end-line="111" selection-end-column="24" />
             </state>
           </provider>
@@ -149,16 +133,9 @@
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="586" />
-    <option name="y" value="28" />
-    <option name="width" value="1911" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="23" />
+    <option name="width" value="1720" />
     <option name="height" value="1361" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -194,6 +171,11 @@
             <path>
               <item name="esp8266-pio-clion-eeprom-rw" type="b2602c69:ProjectViewProjectNode" />
               <item name="esp8266-pio-clion-eeprom-rw" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="esp8266-pio-clion-eeprom-rw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="esp8266-pio-clion-eeprom-rw" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -209,26 +191,7 @@
               <item name="esp8266-pio-clion-eeprom-rw" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
               <item name="Header Search Paths" type="70bed36:NamedLibraryElementNode" />
-              <item name="esp8266" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="esp8266-pio-clion-eeprom-rw" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Header Search Paths" type="70bed36:NamedLibraryElementNode" />
               <item name="include" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="esp8266-pio-clion-eeprom-rw" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Header Search Paths" type="70bed36:NamedLibraryElementNode" />
-              <item name="include" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="esp8266-pio-clion-eeprom-rw" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Header Search Paths" type="70bed36:NamedLibraryElementNode" />
-              <item name="include" type="462c0819:PsiDirectoryNode" />
-              <item name="sys" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -308,7 +271,7 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+    <configuration default="true" type="js.build_tools.gulp">
       <node-interpreter>project</node-interpreter>
       <node-options />
       <gulpfile />
@@ -341,27 +304,35 @@
       <updated>1435919971910</updated>
       <workItem from="1537116632642" duration="5989000" />
       <workItem from="1537134507814" duration="2005000" />
+      <workItem from="1540934254091" duration="225000" />
+      <workItem from="1541193104923" duration="503000" />
+      <workItem from="1546336386716" duration="1169000" />
+      <workItem from="1546342883061" duration="108000" />
+      <workItem from="1546343020129" duration="206000" />
+      <workItem from="1552502452374" duration="675000" />
+      <workItem from="1552963910050" duration="3242000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8592000" />
+    <option name="totallyTimeSpent" value="14720000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="586" y="28" width="1911" height="1361" extended-state="1" />
+    <frame x="0" y="23" width="3440" height="1361" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info id="Project" order="1" visible="true" weight="0.18566078" />
+      <window_info id="Project" order="1" visible="true" weight="0.14537963" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="TODO" order="2" />
       <window_info anchor="bottom" id="CMake" order="3" />
       <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="5" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Serial Monitor" order="6" sideWeight="0.5575174" side_tool="true" visible="true" weight="0.23434992" />
-      <window_info active="true" anchor="bottom" id="Messages" order="7" sideWeight="0.44248262" visible="true" weight="0.23434992" />
       <window_info anchor="right" id="Database" order="0" />
-      <window_info anchor="right" id="Structure" order="1" visible="true" weight="0.32958803" />
+      <window_info anchor="right" id="Structure" order="1" weight="0.32905984" />
+      <window_info anchor="right" id="Serial Monitor" order="2" sideWeight="0.43820226" side_tool="true" visible="true" weight="0.23425545" />
+      <window_info active="true" anchor="right" id="Messages" order="3" sideWeight="0.56179774" visible="true" weight="0.23425545" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -375,19 +346,35 @@
       <collection />
     </option>
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/platformio.ini">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$USER_HOME$/.platformio/packages/framework-arduinoespressif8266/libraries/EEPROM/EEPROM.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1125">
           <caret line="75" column="18" selection-start-line="75" selection-start-column="18" selection-end-line="75" selection-end-column="18" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platformio.ini">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/.platformio/packages/framework-arduinoespressif8266/cores/esp8266/Arduino.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="220" column="5" selection-start-line="220" selection-start-column="5" selection-end-line="220" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/readme.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeListsPrivate.txt">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$USER_HOME$/.platformio/packages/framework-arduinoespressif8266/cores/esp8266/WString.h">
       <provider selected="true" editor-type-id="text-editor">
@@ -398,29 +385,32 @@
     </entry>
     <entry file="file://$USER_HOME$/.platformio/packages/framework-arduinoespressif8266/cores/esp8266/Print.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1065">
+        <state relative-caret-position="1005">
           <caret line="71" column="15" selection-start-line="71" selection-start-column="15" selection-end-line="71" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/.platformio/packages/framework-arduinoespressif8266/cores/esp8266/Print.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3135">
+        <state relative-caret-position="3060">
           <caret line="209" column="14" selection-start-line="209" selection-start-column="14" selection-end-line="209" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/.platformio/packages/framework-arduinoespressif8266/tools/sdk/libc/xtensa-lx106-elf/include/sys/types.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1665">
+        <state relative-caret-position="1260">
           <caret line="111" column="24" selection-start-line="111" selection-start-column="24" selection-end-line="111" selection-end-column="24" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/.platformio/packages/toolchain-xtensa/xtensa-lx106-elf/include/string.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/eepromrw.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="739">
-          <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
+        <state relative-caret-position="1038">
+          <caret line="81" selection-start-line="81" selection-end-line="81" />
           <folding>
             <element signature="e#0#20#0" expanded="true" />
           </folding>

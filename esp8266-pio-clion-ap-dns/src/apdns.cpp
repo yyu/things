@@ -19,7 +19,7 @@ void initWiFi() {
     WiFi.mode(WIFI_AP_STA);
 //    WiFi.softAP(ssid, password);
     WiFi.softAP("DDV");
-    WiFi.begin("DD2G", "giganticrosebud222");
+    WiFi.begin("DD2G", "222");
 
     IPAddress myIP = WiFi.softAPIP();
     Serial.print("AP IP address: ");

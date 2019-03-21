@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="esp8266-pio-clion-ap-dns" targetName="DEBUG" />
-      <config projectName="esp8266-pio-clion-ap-dns" targetName="PLATFORMIO_CLEAN" />
-      <config projectName="esp8266-pio-clion-ap-dns" targetName="PLATFORMIO_TEST" />
-      <config projectName="esp8266-pio-clion-ap-dns" targetName="PLATFORMIO_PROGRAM" />
-      <config projectName="esp8266-pio-clion-ap-dns" targetName="PLATFORMIO" />
       <config projectName="esp8266-pio-clion-ap-dns" targetName="PLATFORMIO_BUILD" />
-      <config projectName="esp8266-pio-clion-ap-dns" targetName="PLATFORMIO_UPLOAD" />
-      <config projectName="esp8266-pio-clion-ap-dns" targetName="PLATFORMIO_UPLOADFS" />
+      <config projectName="esp8266-pio-clion-ap-dns" targetName="PLATFORMIO_CLEAN" />
+      <config projectName="esp8266-pio-clion-ap-dns" targetName="DEBUG" />
+      <config projectName="esp8266-pio-clion-ap-dns" targetName="PLATFORMIO_TEST" />
       <config projectName="esp8266-pio-clion-ap-dns" targetName="PLATFORMIO_UPDATE_ALL" />
-      <config projectName="esp8266-pio-clion-ap-dns" targetName="esp8266-pio-clion-ap-dns" />
+      <config projectName="esp8266-pio-clion-ap-dns" targetName="PLATFORMIO_PROGRAM" />
       <config projectName="esp8266-pio-clion-ap-dns" targetName="PLATFORMIO_REBUILD_PROJECT_INDEX" />
+      <config projectName="esp8266-pio-clion-ap-dns" targetName="PLATFORMIO_UPLOAD" />
+      <config projectName="esp8266-pio-clion-ap-dns" targetName="PLATFORMIO" />
+      <config projectName="esp8266-pio-clion-ap-dns" targetName="esp8266-pio-clion-ap-dns" />
+      <config projectName="esp8266-pio-clion-ap-dns" targetName="PLATFORMIO_UPLOADFS" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -22,8 +22,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec922180-b3d3-40f1-af0b-2568113a9075" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/../esp8266-pio-clion-ap/src/ap.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/apdns.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/apdns.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../esp8266-pio-clion-ap/.idea/clion.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../esp8266-pio-clion-ap/.idea/clion.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../esp8266-pio-clion-ap/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../esp8266-pio-clion-ap/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../esp8266-pio-clion-ap/.pioenvs/structure.hash" beforeDir="false" afterPath="$PROJECT_DIR$/../esp8266-pio-clion-ap/.pioenvs/structure.hash" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../esp8266-pio-clion-dash-button-controls-philips-hue/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../esp8266-pio-clion-dash-button-controls-philips-hue/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../esp8266-pio-clion-dash-button-controls-philips-hue/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../esp8266-pio-clion-eeprom-rw/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../esp8266-pio-clion-eeprom-rw/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../esp8266-pio-clion-eeprom-rw/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../esp8266-pio-clion-eeprom-rw/src/eepromrw.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../esp8266-pio-clion-eeprom-rw/src/eepromrw.cpp" afterDir="false" />
     </list>
     <ignored path="platformio.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,55 +48,16 @@
     <option name="PATCH_PATH" value="" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
-  <component name="FUSProjectUsageTrigger">
-    <session id="-949620043">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="3" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="3" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="cpp" value="7" />
-          <entry key="h" value="8" />
-          <entry key="ino" value="7" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="ObjectiveC" value="22" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="cpp" value="2040" />
-          <entry key="ino" value="57" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="ObjectiveC" value="2097" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FavoritesManager">
     <favorites_list name="esp8266-pio-clion-ap-dns" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/apdns.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="885">
-              <caret line="59" selection-start-line="59" selection-end-line="59" />
-              <folding>
-                <element signature="e#0#24#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="285">
+              <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -107,29 +78,23 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266HTTPClient/examples/Authorization/Authorization.ino">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-627" />
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266HTTPClient/examples/StreamHttpClient/StreamHttpClient.ino">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-882" />
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266httpUpdate/examples/httpUpdate/httpUpdate.ino">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-282" />
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/.platformio/packages/framework-arduinoespressif8266/cores/esp8266/Print.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4080">
+            <state relative-caret-position="4155">
               <caret line="277" column="4" selection-start-line="277" selection-start-column="4" selection-end-line="277" selection-end-column="4" />
             </state>
           </provider>
@@ -138,7 +103,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266WiFi/src/ESP8266WiFiType.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
+            <state relative-caret-position="540">
               <caret line="36" column="45" selection-start-line="36" selection-start-column="45" selection-end-line="36" selection-end-column="45" />
             </state>
           </provider>
@@ -147,7 +112,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266WiFi/src/ESP8266WiFiGeneric.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
+            <state relative-caret-position="1470">
               <caret line="98" column="42" selection-start-line="98" selection-start-column="42" selection-end-line="98" selection-end-column="42" />
             </state>
           </provider>
@@ -156,7 +121,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266WiFi/src/ESP8266WiFiGeneric.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
+            <state relative-caret-position="840">
               <caret line="56" column="25" selection-start-line="56" selection-start-column="25" selection-end-line="56" selection-end-column="25" />
             </state>
           </provider>
@@ -173,12 +138,6 @@
         <option value="$PROJECT_DIR$/src/apdns.cpp" />
       </list>
     </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
@@ -219,39 +178,6 @@
               <item name="esp8266-pio-clion-ap-dns" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="esp8266-pio-clion-ap-dns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="esp8266-pio-clion-ap-dns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Header Search Paths" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="esp8266-pio-clion-ap-dns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Header Search Paths" type="70bed36:NamedLibraryElementNode" />
-              <item name="esp8266" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="esp8266-pio-clion-ap-dns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Header Search Paths" type="70bed36:NamedLibraryElementNode" />
-              <item name="include" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="esp8266-pio-clion-ap-dns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Header Search Paths" type="70bed36:NamedLibraryElementNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="esp8266-pio-clion-ap-dns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Header Search Paths" type="70bed36:NamedLibraryElementNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -261,7 +187,7 @@
   <component name="PropertiesComponent">
     <property name="FullScreen" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/platformio.ini" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="recentsLimit" value="5" />
     <property name="settings.editor.selected.configurable" value="CPPToolchains" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
@@ -329,7 +255,7 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+    <configuration default="true" type="js.build_tools.gulp">
       <node-interpreter>project</node-interpreter>
       <node-options />
       <gulpfile />
@@ -363,17 +289,18 @@
       <workItem from="1537082478013" duration="30000" />
       <workItem from="1537082530975" duration="978000" />
       <workItem from="1537083681108" duration="5841000" />
+      <workItem from="1553200536979" duration="1728000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6849000" />
+    <option name="totallyTimeSpent" value="8577000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2560" height="1331" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" order="0" visible="true" weight="0.13939634" />
+      <window_info active="true" id="Project" order="0" visible="true" weight="0.14019063" />
       <window_info id="Favorites" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
@@ -397,9 +324,6 @@
     <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
       <collection />
     </option>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/platformio.ini">
@@ -469,13 +393,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266WiFi/src/ESP8266WiFiType.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="36" column="45" selection-start-line="36" selection-start-column="45" selection-end-line="36" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.platformio/packages/framework-arduinoespressif8266/tools/sdk/include/user_interface.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
@@ -483,24 +400,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266WiFi/src/ESP8266WiFiGeneric.h">
+    <entry file="file://$PROJECT_DIR$/src/apdns.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="56" column="25" selection-start-line="56" selection-start-column="25" selection-end-line="56" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266WiFi/src/ESP8266WiFiGeneric.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="98" column="42" selection-start-line="98" selection-start-column="42" selection-end-line="98" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.platformio/packages/framework-arduinoespressif8266/cores/esp8266/Print.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4080">
-          <caret line="277" column="4" selection-start-line="277" selection-start-column="4" selection-end-line="277" selection-end-column="4" />
+        <state relative-caret-position="285">
+          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -515,27 +418,39 @@
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266HTTPClient/examples/Authorization/Authorization.ino">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-627" />
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$USER_HOME$/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266HTTPClient/examples/StreamHttpClient/StreamHttpClient.ino">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-882" />
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$USER_HOME$/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266httpUpdate/examples/httpUpdate/httpUpdate.ino">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/.platformio/packages/framework-arduinoespressif8266/cores/esp8266/Print.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-282" />
+        <state relative-caret-position="4155">
+          <caret line="277" column="4" selection-start-line="277" selection-start-column="4" selection-end-line="277" selection-end-column="4" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/apdns.cpp">
+    <entry file="file://$USER_HOME$/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266WiFi/src/ESP8266WiFiType.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="885">
-          <caret line="59" selection-start-line="59" selection-end-line="59" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="540">
+          <caret line="36" column="45" selection-start-line="36" selection-start-column="45" selection-end-line="36" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266WiFi/src/ESP8266WiFiGeneric.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1470">
+          <caret line="98" column="42" selection-start-line="98" selection-start-column="42" selection-end-line="98" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266WiFi/src/ESP8266WiFiGeneric.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="56" column="25" selection-start-line="56" selection-start-column="25" selection-end-line="56" selection-end-column="25" />
         </state>
       </provider>
     </entry>
