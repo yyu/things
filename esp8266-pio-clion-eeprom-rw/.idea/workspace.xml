@@ -22,18 +22,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec922180-b3d3-40f1-af0b-2568113a9075" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../esp8266-pio-clion-ap/src/ap.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../esp8266-pio-clion-ap-dns/.idea/codeStyles/Project.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../esp8266-pio-clion-ap-dns/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../esp8266-pio-clion-ap-dns/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../esp8266-pio-clion-ap-dns/src/apdns.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../esp8266-pio-clion-ap-dns/src/apdns.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../esp8266-pio-clion-ap/.idea/clion.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../esp8266-pio-clion-ap/.idea/clion.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../esp8266-pio-clion-ap/.idea/platformio.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../esp8266-pio-clion-ap/.idea/platformio.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../esp8266-pio-clion-ap/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../esp8266-pio-clion-ap/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../esp8266-pio-clion-ap/.pioenvs/structure.hash" beforeDir="false" afterPath="$PROJECT_DIR$/../esp8266-pio-clion-ap/.pioenvs/structure.hash" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../esp8266-pio-clion-dash-button-controls-philips-hue/.idea/codeStyles/Project.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../esp8266-pio-clion-dash-button-controls-philips-hue/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../esp8266-pio-clion-dash-button-controls-philips-hue/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/eepromrw.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/eepromrw.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../esp8266-pio-clion-servo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../esp8266-pio-clion-servo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../esp8266-pio-clion-web-client/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../esp8266-pio-clion-web-client/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../esp8266-pio-clion-web-client/.pioenvs/structure.hash" beforeDir="false" afterPath="$PROJECT_DIR$/../esp8266-pio-clion-web-client/.pioenvs/structure.hash" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../esp8266-pio-clion-web-server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../esp8266-pio-clion-web-server/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../esp8266-pio-clion-web-server/.pioenvs/structure.hash" beforeDir="false" afterPath="$PROJECT_DIR$/../esp8266-pio-clion-web-server/.pioenvs/structure.hash" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../esp8266-pio-clion-web-server/CMakeListsPrivate.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../esp8266-pio-clion-web-server/CMakeListsPrivate.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../esp8266-pio-clion-web-server/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../esp8266-pio-clion-web-server/src/main.cpp" afterDir="false" />
     </list>
     <ignored path="platformio.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -56,8 +57,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/eepromrw.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1038">
-              <caret line="81" selection-start-line="81" selection-end-line="81" />
+            <state relative-caret-position="955">
+              <caret line="80" column="6" selection-start-line="80" selection-start-column="6" selection-end-line="80" selection-end-column="6" />
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
               </folding>
@@ -133,9 +134,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1720" />
+    <option name="width" value="2560" />
     <option name="height" value="1361" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -310,19 +311,18 @@
       <workItem from="1546342883061" duration="108000" />
       <workItem from="1546343020129" duration="206000" />
       <workItem from="1552502452374" duration="675000" />
-      <workItem from="1552963910050" duration="3242000" />
+      <workItem from="1552963910050" duration="7590000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14720000" />
+    <option name="totallyTimeSpent" value="19068000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="3440" height="1361" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="23" width="2560" height="1361" extended-state="0" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info id="Project" order="1" visible="true" weight="0.14537963" />
+      <window_info id="Project" order="1" visible="true" weight="0.09253376" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="TODO" order="2" />
@@ -331,8 +331,8 @@
       <window_info anchor="bottom" id="Version Control" order="5" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="0" />
       <window_info anchor="right" id="Structure" order="1" weight="0.32905984" />
-      <window_info anchor="right" id="Serial Monitor" order="2" sideWeight="0.43820226" side_tool="true" visible="true" weight="0.23425545" />
-      <window_info active="true" anchor="right" id="Messages" order="3" sideWeight="0.56179774" visible="true" weight="0.23425545" />
+      <window_info anchor="right" id="Serial Monitor" order="2" sideWeight="0.43820226" side_tool="true" visible="true" weight="0.23749007" />
+      <window_info active="true" anchor="right" id="Messages" order="3" sideWeight="0.56179774" visible="true" weight="0.23749007" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -409,8 +409,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/eepromrw.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1038">
-          <caret line="81" selection-start-line="81" selection-end-line="81" />
+        <state relative-caret-position="955">
+          <caret line="80" column="6" selection-start-line="80" selection-start-column="6" selection-end-line="80" selection-end-column="6" />
           <folding>
             <element signature="e#0#20#0" expanded="true" />
           </folding>

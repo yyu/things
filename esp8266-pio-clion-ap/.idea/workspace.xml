@@ -3,18 +3,18 @@
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
       <config projectName="esp8266-pio-clion-ap" targetName="PLATFORMIO_BUILD_VERBOSE" />
-      <config projectName="esp8266-pio-clion-ap" targetName="DEBUG" />
-      <config projectName="esp8266-pio-clion-ap" targetName="PLATFORMIO_TEST" />
-      <config projectName="esp8266-pio-clion-ap" targetName="PLATFORMIO" />
-      <config projectName="esp8266-pio-clion-ap" targetName="PLATFORMIO_PROGRAM" />
-      <config projectName="esp8266-pio-clion-ap" targetName="PLATFORMIO_UPLOAD" />
-      <config projectName="esp8266-pio-clion-ap" targetName="PLATFORMIO_UPDATE_ALL" />
-      <config projectName="esp8266-pio-clion-ap" targetName="esp8266-pio-clion-ap" />
-      <config projectName="esp8266-pio-clion-ap" targetName="PLATFORMIO_MONITOR" />
-      <config projectName="esp8266-pio-clion-ap" targetName="PLATFORMIO_CLEAN" />
       <config projectName="esp8266-pio-clion-ap" targetName="PLATFORMIO_REBUILD_PROJECT_INDEX" />
-      <config projectName="esp8266-pio-clion-ap" targetName="PLATFORMIO_UPLOADFS" />
+      <config projectName="esp8266-pio-clion-ap" targetName="PLATFORMIO_MONITOR" />
+      <config projectName="esp8266-pio-clion-ap" targetName="esp8266-pio-clion-ap" />
       <config projectName="esp8266-pio-clion-ap" targetName="PLATFORMIO_BUILD" />
+      <config projectName="esp8266-pio-clion-ap" targetName="PLATFORMIO_UPDATE_ALL" />
+      <config projectName="esp8266-pio-clion-ap" targetName="PLATFORMIO_UPLOAD" />
+      <config projectName="esp8266-pio-clion-ap" targetName="PLATFORMIO_UPLOADFS" />
+      <config projectName="esp8266-pio-clion-ap" targetName="PLATFORMIO" />
+      <config projectName="esp8266-pio-clion-ap" targetName="PLATFORMIO_CLEAN" />
+      <config projectName="esp8266-pio-clion-ap" targetName="PLATFORMIO_TEST" />
+      <config projectName="esp8266-pio-clion-ap" targetName="DEBUG" />
+      <config projectName="esp8266-pio-clion-ap" targetName="PLATFORMIO_PROGRAM" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -24,18 +24,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec922180-b3d3-40f1-af0b-2568113a9075" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ap.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../esp8266-pio-clion-ap-dns/.idea/codeStyles/Project.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../esp8266-pio-clion-ap-dns/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../esp8266-pio-clion-ap-dns/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../esp8266-pio-clion-ap-dns/src/apdns.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../esp8266-pio-clion-ap-dns/src/apdns.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/clion.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/clion.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/platformio.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/platformio.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.pioenvs/structure.hash" beforeDir="false" afterPath="$PROJECT_DIR$/.pioenvs/structure.hash" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../esp8266-pio-clion-dash-button-controls-philips-hue/.idea/codeStyles/Project.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../esp8266-pio-clion-dash-button-controls-philips-hue/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../esp8266-pio-clion-dash-button-controls-philips-hue/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../esp8266-pio-clion-eeprom-rw/.idea/codeStyles/Project.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../esp8266-pio-clion-eeprom-rw/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../esp8266-pio-clion-eeprom-rw/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../esp8266-pio-clion-eeprom-rw/src/eepromrw.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../esp8266-pio-clion-eeprom-rw/src/eepromrw.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../esp8266-pio-clion-servo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../esp8266-pio-clion-servo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../esp8266-pio-clion-web-client/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../esp8266-pio-clion-web-client/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../esp8266-pio-clion-web-client/.pioenvs/structure.hash" beforeDir="false" afterPath="$PROJECT_DIR$/../esp8266-pio-clion-web-client/.pioenvs/structure.hash" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../esp8266-pio-clion-web-server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../esp8266-pio-clion-web-server/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../esp8266-pio-clion-web-server/.pioenvs/structure.hash" beforeDir="false" afterPath="$PROJECT_DIR$/../esp8266-pio-clion-web-server/.pioenvs/structure.hash" afterDir="false" />
     </list>
     <ignored path="platformio.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -63,8 +62,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ap.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="555">
+              <caret line="37" selection-start-line="37" selection-end-line="37" />
             </state>
           </provider>
         </entry>
@@ -87,10 +86,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1102" />
+    <option name="x" value="400" />
     <option name="y" value="23" />
-    <option name="width" value="2338" />
-    <option name="height" value="1360" />
+    <option name="width" value="1280" />
+    <option name="height" value="971" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -114,6 +113,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -130,7 +130,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -253,22 +252,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1435919971910</updated>
-      <workItem from="1553205220671" duration="1236000" />
+      <workItem from="1553205220671" duration="2200000" />
+      <workItem from="1553242273823" duration="1109000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1236000" />
+    <option name="totallyTimeSpent" value="3309000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1102" y="23" width="2338" height="1360" extended-state="0" />
+    <frame x="400" y="23" width="1280" height="971" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Structure" side_tool="true" />
-      <window_info id="Project" order="0" visible="true" weight="0.14982578" />
+      <window_info id="Project" order="0" visible="true" weight="0.27786753" />
+      <window_info id="Favorites" order="1" side_tool="true" />
+      <window_info id="Structure" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="0" />
-      <window_info anchor="bottom" id="Serial Monitor" order="1" visible="true" weight="0.32931727" />
+      <window_info anchor="bottom" id="Serial Monitor" order="1" weight="0.47897196" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="TODO" order="4" />
@@ -298,8 +298,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ap.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="555">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
         </state>
       </provider>
     </entry>

@@ -1,5 +1,9 @@
 #include <ESP8266WiFi.h>
 #include <Servo.h>
+//#include <LiquidCrystal.h>
+//
+//const int RS = D1, EN = D2, d4 = D4, d5 = D5, d6 = D6, d7 = D7;
+//LiquidCrystal lcd(RS, EN, d4, d5, d6, d7);
 
 const int servopin = 15;
 
@@ -9,9 +13,8 @@ Servo blueservo;
 void initWiFi() {
     const char * ap = "Guest8266";
     const char * password_as_ap = "";
-//    const char * ssid = "N2G";
-//    const char * password = "";
-    const char * ssid = "Guest";
+    const char * ssid = "N2G";
+//    const char * ssid = "Guest";
     const char * password = "";
 
     Serial.println();
@@ -43,8 +46,32 @@ void initWiFi() {
     Serial.println(WiFi.localIP());
 }
 
+void servogo(int a) {
+    if (!blueservo.attached()) {
+        blueservo.attach(servopin);
+    }
+    blueservo.write(a);
+    delay(1000);
+//    blueservo.detach();
+}
+
+void lcdprint(const String& s)
+{
+//    lcd.setCursor(0, 1);
+//    lcd.print(s);
+}
+
+void lcdprint(const int& i)
+{
+    String s;
+    s.concat(i);
+    lcdprint(s);
+}
+
 void setup()
 {
+//    lcd.begin(16, 2);
+
     delay(3000);
     Serial.begin(115200);
     Serial.println();
@@ -52,10 +79,14 @@ void setup()
 
     initWiFi();
 
+//    lcd.print(WiFi.softAPIP().toString());
+
     server.begin();
     Serial.printf("Web server started, open %s in a web browser\n", WiFi.localIP().toString().c_str());
 
     blueservo.attach(servopin);
+    Serial.printf("angle: %d \n", blueservo.read());
+    servogo(60);
     Serial.printf("angle: %d \n", blueservo.read());
 }
 
@@ -75,15 +106,6 @@ String prepareHtmlPage()
           "</html>" +
           "\r\n";
   return htmlPage;
-}
-
-void servogo(int a) {
-    if (!blueservo.attached()) {
-        blueservo.attach(servopin);
-    }
-    blueservo.write(a);
-    delay(1000);
-//    blueservo.detach();
 }
 
 void loop()
@@ -115,6 +137,7 @@ void loop()
                     int endidx = line.indexOf("degree");
                     int a = line.substring(k + 5, endidx).toInt();
                     Serial.printf("<a:%d>\n", a);
+                    lcdprint(a);
                     servogo(a);
                 } else if (line.indexOf("north") != -1) {
                     servogo(0);

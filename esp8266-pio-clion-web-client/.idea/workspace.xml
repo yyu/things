@@ -24,26 +24,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec922180-b3d3-40f1-af0b-2568113a9075" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../uno-pio-eclipse_lcd-shows-distance/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uno-pio-eclipse_lcd-shows-distance/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uno-pio-eclipse_lcd-shows-distance/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uno-pio-eclipse_lcd-shows-distance/.idea/serialmonitor_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uno-pio-eclipse_lcd-shows-distance/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uno-pio-eclipse_lcd-shows-distance/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../esp8266-pio-clion-ap-dns/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../esp8266-pio-clion-ap-dns/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../esp8266-pio-clion-ap/.idea/platformio.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../esp8266-pio-clion-ap/.idea/platformio.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../esp8266-pio-clion-ap/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../esp8266-pio-clion-ap/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../esp8266-pio-clion-dash-button-controls-philips-hue/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../esp8266-pio-clion-dash-button-controls-philips-hue/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../esp8266-pio-clion-eeprom-rw/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../esp8266-pio-clion-eeprom-rw/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../esp8266-pio-clion-eeprom-rw/src/eepromrw.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../esp8266-pio-clion-eeprom-rw/src/eepromrw.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../esp8266-pio-clion-servo/.idea/platformio.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../esp8266-pio-clion-servo/.idea/platformio.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../esp8266-pio-clion-servo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../esp8266-pio-clion-servo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../esp8266-pio-clion-servo/.pioenvs/structure.hash" beforeDir="false" afterPath="$PROJECT_DIR$/../esp8266-pio-clion-servo/.pioenvs/structure.hash" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../esp8266-pio-clion-servo/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../esp8266-pio-clion-servo/src/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/clion.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/clion.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.pioenvs/structure.hash" beforeDir="false" afterPath="$PROJECT_DIR$/.pioenvs/structure.hash" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../esp8266-pio-clion-web-server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../esp8266-pio-clion-web-server/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../esp8266-pio-clion-web-server/.pioenvs/structure.hash" beforeDir="false" afterPath="$PROJECT_DIR$/../esp8266-pio-clion-web-server/.pioenvs/structure.hash" afterDir="false" />
     </list>
@@ -73,8 +62,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="510">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
             </state>
           </provider>
         </entry>
@@ -253,12 +242,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1435919971910</updated>
-      <workItem from="1553247138969" duration="4003000" />
+      <workItem from="1553247138969" duration="4508000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4003000" />
+    <option name="totallyTimeSpent" value="4508000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="305" y="56" width="2029" height="1279" extended-state="0" />
@@ -295,8 +284,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="510">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
         </state>
       </provider>
     </entry>

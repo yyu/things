@@ -78,7 +78,7 @@ void setup() {
                      "SSID= "
                      "PASSWORD= "
                      "HUE_AUTH=";
-    eeprom_write_all((byte*)s, strlen(s) + 1);
+    // eeprom_write_all((byte*)s, strlen(s) + 1);
 
     delay(1000);
 
