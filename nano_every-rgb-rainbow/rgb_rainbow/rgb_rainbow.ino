@@ -5,7 +5,7 @@
   #include <avr/power.h>
 #endif
 
-#define PIN      14
+#define PIN       3
 #define NR_LEDS  12
 
 // Parameter 3 = pixel type flags, add together as needed:
